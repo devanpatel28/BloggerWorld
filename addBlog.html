@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="description" content="Multipages HTML5 Template">
+        <meta name="author" content="">
+
+        <!-- Page Title -->
+        <title>Multipages HTML5 Template</title>
+
+        <!-- Favicon and touch Icons -->
+        <link href="images/favicon.png" rel="shortcut icon" type="image/png">
+        <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+        <link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+        <link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+        <!-- Lead Style -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+		<div id="preloader" class="loader_show">
+			<div class="loader-wrap">
+			<div class="loader">
+				<div class="loader-inner"></div>
+			</div>
+			</div>
+		</div>
+		
+		<!-- pointer start -->
+		<div class="pointer bnz-pointer" id="bnz-pointer"></div>
+		
+		<div class="content">
+    		<div class="top_part">
+	        	<!-- Start Header -->
+				<header id="header" class="header_3 header">
+					<div class="container">
+						<div class="navigation">
+							<nav id="flexmenu">
+								<div class="logo">
+									<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+								</div>
+								<div class="nav-inner">
+									<div id="mobile-toggle" class="mobile-btn"></div>
+									<ul class="main-menu">
+										<li class="menu-item "><a href="index.html">Home</a>
+										</li>
+										<li class="menu-item"><a href="bloggers.html">Bloggers</a>
+										</li>
+										<li class="menu-item"><a href="community.html">Community</a>
+										</li>
+										</li>
+										<li class="menu-item active"><a href="addBlog.html">Add Blog</a>
+										</li>
+										<li class="menu-item"><a href="contact.html">Contact Us</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+		        </header>
+			</div>
+			
+			<div class="page-header">
+				<div class="page-header-content">
+					<div class="container">
+						<h2 class="heading">Add Journey Experience</h2>
+					</div>
+				</div>
+			
+
+			<div class="main-wrapper m_tp_0">
+				<div class="container">					
+				
+					<div class="row">
+						<div class="col-lg-10">
+							<div class="contact" data-aos="fade-up" data-aos-duration="700">
+								<form class="blog_form" action="submit_blog.php" method="post" enctype="multipart/form-data">
+									<div class="form-container">
+										<div class="form-group">
+											<input type="text" name="blog_name" class="form-control" placeholder="Name of Blog*" required>
+										</div>
+										<div class="form-group">
+											<textarea name="blog_description" class="form-control" placeholder="Description of Blog*" required></textarea>
+										</div>
+										<div class="form-group">
+											<input type="text" name="blog_place" class="form-control" placeholder="Place*" required>
+										</div>
+										<div class="form-group">
+											<input type="text" name="blog_video" class="form-control" placeholder="Video Link (Optional)">
+										</div>
+										<div class="form-group">
+											<label for="blog_images">Select Images:</label>
+											<input type="file" name="blog_images[]" id="blog_images" class="form-control" multiple>
+										</div>
+										<div id="image_preview"></div>
+										
+										<div class="form-group">
+											<input class="button" type="submit" value="POST">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer" data-aos="fade-up" data-aos-duration="700">
+			<div class="footer-above">
+			</div>
+			<div class="footer-middle">
+				<div class="container">
+					<div class="footer_widget_wrapper">
+						<div class="row">
+							<div class="col-lg-6 col-md-6">
+								<div class="footer_widget">
+									
+									<div class="instagram">
+										<ul>
+											<li><a href="#"><img src="images/insta/1.jpg" alt="insta"></a></li>
+											<li><a href="#"><img src="images/insta/2.jpg" alt="insta"></a></li>
+											<li><a href="#"><img src="images/insta/3.jpg" alt="insta"></a></li>
+											<li><a href="#"><img src="images/insta/4.jpg" alt="insta"></a></li>
+											<li><a href="#"><img src="images/insta/5.jpg" alt="insta"></a></li>
+											<li><a href="#"><img src="images/insta/6.jpg" alt="insta"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="footer_widget pd_lt">
+									<div class="blend-logo">
+										<a href="#"><img src="images/logo-big.png" alt="logo"></a>
+									</div>
+									<div class="footer_nav">
+										<ul>
+											<li class="menu-item"><a href="#">HOME</a></li>
+											<li class="menu-item"><a href="blog-list.html">BLOGS</a></li>
+											<li class="menu-item"><a href="contact.html">CONTACT US</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+				</div>
+			</div>
+		</footer>
+		</div>
+
+        <!-- All JavaScript Files
+        ================================================== -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="plugins/swiper/swiper.min.js"></script>
+		<script src="js/menu.js"></script>
+        <script src="plugins/aos/aos.js"></script>
+        <script src="js/custom.js"></script>
+		<script>
+			document.getElementById('blog_images').addEventListener('change', function(event) {
+				var imagePreview = document.getElementById('image_preview');
+				imagePreview.innerHTML = ''; // Clear existing images
+		
+				var files = event.target.files; // Get selected files
+		
+				for (var i = 0; i < files.length; i++) {
+					var file = files[i];
+		
+					if (file.type.startsWith('image/')) { // Check if the file is an image.
+						var reader = new FileReader();
+		
+						reader.onload = function(e) {
+							var img = document.createElement('img');
+							img.setAttribute('src', e.target.result);
+							img.style.width = '300px'; // Set the width of the preview image
+							img.style.height = '300px'; // Set the height of the preview image
+							img.style.marginRight = '10px'; // Add some margin between images
+							imagePreview.appendChild(img);
+						};
+		
+						reader.readAsDataURL(file); // Read the file as a Data URL.
+					}
+				}
+			});
+		</script>
+	</body>
+</html>
